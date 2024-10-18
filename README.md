@@ -260,17 +260,17 @@ Assuming that the environment is already configured, as well as all the packages
 The first thing to do is to run the LED panel node, using this command in the console: `ros2 run {package_name} led_panel.py`. Remember to change the package name, which in my case is called `my_py_pkg`
 We will have something like this in the console:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/70cbeea5-c433-4bda-93b3-59c868c24336" width="300">
+  <img src="https://github.com/user-attachments/assets/70cbeea5-c433-4bda-93b3-59c868c24336" width="500">
 </p>
 
 For now, the node is running. To check that the `msg` is being published correctly, we will echo the topic.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bfbab234-cdb2-4dcf-bcd2-55509b363b0b" width="300">
+  <img src="https://github.com/user-attachments/assets/bfbab234-cdb2-4dcf-bcd2-55509b363b0b" width="500">
 </p>
 
 From now until the battery node is switched on, all the LEDs will be off, so now we have to switch on the battery node, and check how the LEDs are changing.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/404f9fa7-1c6b-4ddf-876b-1f8974a75cca" width="300">
+  <img src="https://github.com/user-attachments/assets/404f9fa7-1c6b-4ddf-876b-1f8974a75cca" width="500">
 </p>
 
 Now we see that when the battery runs out of charge, the third LED will turn on, and when it charges again, the LED will turn off. Additionally, the server returns a message to the client indicating that the battery status was received and correctly applied to the state of the LEDs.
