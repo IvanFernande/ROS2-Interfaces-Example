@@ -54,3 +54,5 @@ A **service** in ROS2 provides a mechanism for synchronous communication between
   - Service type: `SetLed.srv`
   - Client: A node that requests to change the status of each LED in the panel.
   - Server: A node that processes the request and change the status of each LED in the panel.
+
+# Code Implementation and Results
