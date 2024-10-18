@@ -272,7 +272,7 @@ For now, the node is running. To check that the `msg` is being published correct
 
 From now until the battery node is switched on, all the LEDs will be off, so now we have to switch on the battery node, and check how the LEDs are changing.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/404f9fa7-1c6b-4ddf-876b-1f8974a75cca" width="700">
+  <img src="https://github.com/user-attachments/assets/404f9fa7-1c6b-4ddf-876b-1f8974a75cca" width="900">
 </p>
 
 Now we see that when the battery runs out of charge, the third LED will turn on, and when it charges again, the LED will turn off. Additionally, the server returns a message to the client indicating that the battery status was received and correctly applied to the state of the LEDs.
