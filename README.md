@@ -56,3 +56,30 @@ A **service** in ROS2 provides a mechanism for synchronous communication between
   - Server: A node that processes the request and change the status of each LED in the panel.
 
 # Code Implementation and Results
+Now, having theoretically introduced what interfaces are, let's go to the example mentioned at the beginning.
+
+## Led Panel Node
+
+This project implements a ROS2 node called **LedPanelNode** that manages the state of an LED panel. The node allows you to control and monitor the status of the LEDs using a service and a topic, respectively.
+
+### Node Description
+
+The **LedPanelNode** performs two main functions:
+1. **Publishing LED states**: It uses a topic to publish the current states of the LEDs as an array.
+2. **Service to modify the state of an LED**: It exposes a service that allows other nodes to change the state of a specific LED, either turning it on or off.
+
+#### Main Functions:
+
+##### 1. Publishing LED States
+The node periodically publishes the state of the LEDs via the `led_states` topic with a message of type `LedStateArray`. Initially, the state of all LEDs is `[0, 0, 0]` (off). A timer is used to publish the states every 4 seconds.
+
+##### 2. Service to Change the State of an LED
+The node offers a service called `set_led`, which allows changing the state of an individual LED. The service takes two parameters:
+- `led_number`: The number of the LED to modify (starting from 1).
+- `state`: The new state of the LED, where `0` means off and `1` means on.
+
+The node validates that the requested LED number exists and that the provided state is valid (`0` or `1`). If the inputs are correct, the LED state is updated, and a successful response (`success = True`) is returned. Otherwise, a failure response (`success = False`) is sent.
+
+
+
+
