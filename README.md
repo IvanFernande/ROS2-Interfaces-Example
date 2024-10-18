@@ -282,4 +282,4 @@ This repository offers a practical implementation of two nodes in ROS2 that inte
 
 This project serves as an example to understand how to use custom messages and services in ROS2, as well as to grasp the communication and synchronization between nodes. I hope this code is useful to you as a basis for developing more advanced applications.
 
-We encourage you to contribute to the repository with improvements, suggestions, or new functionalities!
+I encourage you to contribute to the repository with improvements, suggestions, or new functionalities!
