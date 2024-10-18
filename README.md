@@ -1,4 +1,14 @@
-# ROS2 Interfaces Introduction
+# ROS2 Interfaces Example
+
+In this example, we will create two nodes, one being a fictitious battery that sends its status through a service to a fictitious led panel, which will be updated according to its status. As it is a service, the battery node will collect the feedback that the panel was updated correctly.
+
+In turn, the node that manipulates the LED panel will publish a message with the status of the LEDs it has, being a 0 if it is off, and 1 if it is on.
+
+For example, if the panel has 4 leds, of which the first and third are on, the panel status will be something like: `[1,0,1,0]`.
+
+To explain this example, we will first introduce what interfaces in ros are, explain the interfaces used in this example, as well as the development of the nodes and interfaces to run the example.
+
+# Interfaces in ROS2
 
 In ROS2, interfaces are the way nodes communicate with each other by passing data. These interfaces are defined in terms of message types, services and actions, which are fundamental to the ROS2 architecture. There are three types of interfaces: messages, services and actions, but in this example, the first two will be used:
 
