@@ -12,6 +12,11 @@ For example, if the panel has 4 leds, of which the first and third are on, the p
 
 To explain this example, we will first introduce what interfaces in ros are, explain the interfaces used in this example, as well as the development of the nodes and interfaces to run the example.
 
+Also, if you have questions about creating your own interfaces, as well as the configuration and installation of ROS2 on your computer, I recommend that you visit these repositories:
+- Install ROS2 on my computer. **Coming soon**
+- [Templates for ROS2 Humble nodes ](https://github.com/IvanFernande/ROS2-Starter-Code-Templates-in-Python-and-Cpp)
+- How to create your own interface in ROS2 **Coming soon**
+
 # Interfaces in ROS2
 
 In ROS2, interfaces are the way nodes communicate with each other by passing data. These interfaces are defined in terms of message types, services and actions, which are fundamental to the ROS2 architecture. There are three types of interfaces: messages, services and actions, but in this example, the first two will be used:
@@ -251,3 +256,4 @@ int64[] led_states
 
 
 # Instructions for execution
+Assuming that the environment is already configured, as well as all the packages.xml and CMakeFile files in the case of the messaging files, the next step is to indicate the steps for executing the files.
