@@ -64,7 +64,7 @@ A **service** in ROS2 provides a mechanism for synchronous communication between
   - Client: A node that requests to change the status of each LED in the panel.
   - Server: A node that processes the request and change the status of each LED in the panel.
 
-# Code Implementation and Results
+# Code Implementation
 Now, having theoretically introduced what interfaces are, let's go to the example mentioned at the beginning.
 
 ## Led Panel Node
