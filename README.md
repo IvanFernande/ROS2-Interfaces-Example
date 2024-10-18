@@ -283,4 +283,8 @@ From now until the battery node is switched on, all the LEDs will be off, so now
 Now we see that when the battery runs out of charge, the third LED will turn on, and when it charges again, the LED will turn off. Additionally, the server returns a message to the client indicating that the battery status was received and correctly applied to the state of the LEDs.
 
 # Conclusion
+This repository offers a practical implementation of two nodes in ROS2 that interact through custom messages and services. The `led_panel` node manages an LED panel whose configuration can be dynamically updated. The `battery` node simulates the behavior of a battery, alternating between "full" and "empty" states, and updates the state of the LED panel accordingly.
 
+This project serves as an example to understand how to use custom messages and services in ROS2, as well as to grasp the communication and synchronization between nodes. I hope this code is useful to you as a basis for developing more advanced applications.
+
+We encourage you to contribute to the repository with improvements, suggestions, or new functionalities!
