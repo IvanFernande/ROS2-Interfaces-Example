@@ -17,7 +17,15 @@ Also, if you have questions about creating your own interfaces, as well as the c
 - [Templates for ROS2 Humble nodes ](https://github.com/IvanFernande/ROS2-Starter-Code-Templates-in-Python-and-Cpp)
 - How to create your own interface in ROS2 **Coming soon**
 
-# Interfaces in ROS2
+# Index
+
+- [Interfaces in ROS2](#título-del-encabezado)
+- [Instalación y Configuración](#instalación-y-configuración)
+- [Uso](#uso)
+- [Contribuir](#contribuir)
+- [Licencia](#licencia)
+
+# [Interfaces in ROS2](#título-del-encabezado)
 
 In ROS2, interfaces are the way nodes communicate with each other by passing data. These interfaces are defined in terms of message types, services and actions, which are fundamental to the ROS2 architecture. There are three types of interfaces: messages, services and actions, but in this example, the first two will be used:
 
@@ -265,12 +273,12 @@ We will have something like this in the console:
 
 For now, the node is running. To check that the `msg` is being published correctly, we will echo the topic.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bfbab234-cdb2-4dcf-bcd2-55509b363b0b" width="500">
+  <img src="https://github.com/user-attachments/assets/bfbab234-cdb2-4dcf-bcd2-55509b363b0b" width="400">
 </p>
 
 From now until the battery node is switched on, all the LEDs will be off, so now we have to switch on the battery node, and check how the LEDs are changing.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/404f9fa7-1c6b-4ddf-876b-1f8974a75cca" width="500">
+  <img src="https://github.com/user-attachments/assets/404f9fa7-1c6b-4ddf-876b-1f8974a75cca" width="700">
 </p>
 
 Now we see that when the battery runs out of charge, the third LED will turn on, and when it charges again, the LED will turn off. Additionally, the server returns a message to the client indicating that the battery status was received and correctly applied to the state of the LEDs.
