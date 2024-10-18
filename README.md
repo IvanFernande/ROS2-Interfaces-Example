@@ -19,11 +19,7 @@ Also, if you have questions about creating your own interfaces, as well as the c
 
 # Index
 
-- [Interfaces en ROS2](#interfaces-en-ros2)
-- [Instalación y Configuración](#instalación-y-configuración)
-- [Uso](#uso)
-- [Contribuir](#contribuir)
-- [Licencia](#licencia)
+- [Interfaces en ROS2]
 
 # Interfaces in ROS2
 
