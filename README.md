@@ -22,7 +22,7 @@ In ROS2, interfaces are the way nodes communicate with each other by passing dat
 - **Structure**: A message in ROS2 is defined in an `.msg` file containing the specification of the data to be transmitted. Messages may contain several fields of primitive types such as `int32`, `float32`, `string`, or even other nested message. In this example we can see how the message `LedStateArray.msg` collects the information in `int64[]` format, which is a 64-bit array of integers representing the states of various LEDs. Each position in the array corresponds to a specific LED and its numeric value can represent different states of the LED (e.g., on or off).
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0f5c8a3a-5858-47b8-b990-baca5b19a746" width="400">
+  <img src="https://github.com/user-attachments/assets/0f5c8a3a-5858-47b8-b990-baca5b19a746" width="300">
 </p>
 
 - **Posting** and **subscribing** messages:
@@ -42,7 +42,7 @@ A **service** in ROS2 provides a mechanism for synchronous communication between
   - Response: The data that the node responds to after processing the request.
   In this example, the `SetLed.srv` service requests two parameters: `int64 led_number`, which identifies the LED to control, and `int64 state`, which specifies the new state of the LED (e.g., 0 for off and 1 for on). In response, the server returns a boolean value `bool success`, indicating whether the operation was successful (true) or not (false).
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8c9772cf-f573-4aaf-bc13-5af40df4fcd8" width="400">
+  <img src="https://github.com/user-attachments/assets/8c9772cf-f573-4aaf-bc13-5af40df4fcd8" width="300">
 </p>
 
 - **Service call** and **response**:
