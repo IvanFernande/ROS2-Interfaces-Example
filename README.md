@@ -20,6 +20,9 @@ Also, if you have questions about creating your own interfaces, as well as the c
 # Index
 
 - [Interfaces en ROS2](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#interfaces-in-ros2)
+- [Code Implementation](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#code-implementation)
+- [Instructions for execution](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#instructions-for-execution)
+- [Conlcusion](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#conclusion)
 
 # Interfaces in ROS2
 
