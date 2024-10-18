@@ -15,7 +15,7 @@ To explain this example, we will first introduce what interfaces in ros are, exp
 # Index
 
 - [Interfaces en ROS2](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#interfaces-in-ros2)
-- [Code Implementation](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#code-implementation)
+- [Code](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#code-implementation)
 - [Instructions for execution](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#instructions-for-execution)
 - [Conlcusion](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#conclusion)
 
@@ -62,7 +62,7 @@ A **service** in ROS2 provides a mechanism for synchronous communication between
   - Client: A node that requests to change the status of each LED in the panel.
   - Server: A node that processes the request and change the status of each LED in the panel.
 
-# Code Implementation
+# Code
 Now, having theoretically introduced what interfaces are, let's go to the example mentioned at the beginning.
 
 ## Led Panel Node
