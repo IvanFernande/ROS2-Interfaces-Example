@@ -1,4 +1,4 @@
-# ROS2 Interfaces Example
+# ROS2 Interfaces Introduction
 
 In ROS2, interfaces are the way nodes communicate with each other by passing data. These interfaces are defined in terms of message types, services and actions, which are fundamental to the ROS2 architecture. There are three types of interfaces: messages, services and actions, but in this example, the first two will be used:
 
