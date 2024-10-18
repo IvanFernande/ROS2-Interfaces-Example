@@ -12,11 +12,6 @@ For example, if the panel has 4 leds, of which the first and third are on, the p
 
 To explain this example, we will first introduce what interfaces in ros are, explain the interfaces used in this example, as well as the development of the nodes and interfaces to run the example.
 
-Also, if you have questions about creating your own interfaces, as well as the configuration and installation of ROS2 on your computer, I recommend that you visit these repositories:
-- [Install ROS2 on my computer.](https://www.youtube.com/watch?v=NhnX3aeruHs)
-- [Templates for ROS2 Humble nodes ](https://github.com/IvanFernande/ROS2-Starter-Code-Templates-in-Python-and-Cpp)
-- [How to create your own interface in ROS2.](https://roboticsbackend.com/ros2-create-custom-message/)
-
 # Index
 
 - [Interfaces en ROS2](https://github.com/IvanFernande/ROS2-Interfaces-Example/blob/main/README.md#interfaces-in-ros2)
