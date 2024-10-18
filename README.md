@@ -159,7 +159,7 @@ Whenever the battery state changes:
 - If the battery is **empty** (`E`), the node calls the `set_led` service to turn on LED number 3, simulating the charging process.
 - If the battery is **full** (`F`), the node calls the `set_led` service to turn off LED number 3, indicating the battery is charged.
 
-### Code
+### battery.py
 ```python
 #!/usr/bin/env python3
 
