@@ -1,4 +1,4 @@
-# ROS2 Interfaces Example
+# ROS2 Humble Interfaces Example
 
 In this example, we will create two nodes, one being a fictitious battery that sends its status through a service to a fictitious led panel, which will be updated according to its status. As it is a service, the battery node will collect the feedback that the panel was updated correctly.
 
