@@ -19,13 +19,13 @@ Also, if you have questions about creating your own interfaces, as well as the c
 
 # Index
 
-- [Interfaces in ROS2](#título-del-encabezado)
+- [Interfaces en ROS2](#interfaces-en-ros2)
 - [Instalación y Configuración](#instalación-y-configuración)
 - [Uso](#uso)
 - [Contribuir](#contribuir)
 - [Licencia](#licencia)
 
-# [Interfaces in ROS2](#título-del-encabezado)
+# Interfaces in ROS2
 
 In ROS2, interfaces are the way nodes communicate with each other by passing data. These interfaces are defined in terms of message types, services and actions, which are fundamental to the ROS2 architecture. There are three types of interfaces: messages, services and actions, but in this example, the first two will be used:
 
