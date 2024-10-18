@@ -7,7 +7,7 @@ In turn, the node that manipulates the LED panel will publish a message with the
 For example, if the panel has 4 leds, of which the first and third are on, the panel status will be something like: `[1,0,1,0]`.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cc91b3f4-ab15-4af4-bcf8-989b4bef2170" width="500">
+  <img src="https://github.com/user-attachments/assets/5729c644-2567-4e64-b8f6-744c18976914" width="500">
 </p>
 
 
