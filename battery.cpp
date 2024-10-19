@@ -69,7 +69,7 @@ private:
         try
         {
             auto response = future.get();
-            RCLCPP_INFO(this->get_logger(), "¿Se ha actualizado el estado de los LEDs? -> %s", response->success ? "Sí" : "No");
+            RCLCPP_INFO(this->get_logger(), "has the status of the LEDs been updated? -> %s", response->success ? "Sí" : "No");
         }
         catch (const std::exception &e)
         {
