@@ -73,7 +73,7 @@ private:
         }
         catch (const std::exception &e)
         {
-            RCLCPP_ERROR(this->get_logger(), "La llamada al servicio falló: %s", e.what());
+            RCLCPP_ERROR(this->get_logger(), "Service call failed: %s", e.what());
         }
     }
 
